@@ -1,0 +1,19 @@
+#page-auth {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+    background: linear-gradient(295.02deg, #FADB8B -1.12%, #7F0BA4 99.61%);
+
+    aside {
+        flex: 7;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 120px 80px;
+    }
+    
+    main {
+        flex: 8;
+    }
+}
