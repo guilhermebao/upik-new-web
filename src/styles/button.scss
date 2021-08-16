@@ -1,7 +1,7 @@
 .button {
     font: 700 16px 'Poppins', sans-serif;
     width: 333px;
-    height: 69px;
+    min-height: 69px;
     left: 257px;
     top: 673px;
     background: #7F0BA4;
@@ -9,6 +9,7 @@
     cursor: pointer;
     border-radius: 9px;
     border-width: 0px;
+    margin-bottom: 20px;
     
     &:hover {
         filter: brightness(0.9);
