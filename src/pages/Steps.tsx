@@ -1,4 +1,5 @@
 import '../styles/auth.scss'
+import { StepOne } from "./StepOne"
 
 export function Steps() {
     return (
@@ -14,7 +15,7 @@ export function Steps() {
             </aside>
             <main>
                 <div className="chat">
-                
+                    <StepOne />
                 </div>
             </main>
         </div>

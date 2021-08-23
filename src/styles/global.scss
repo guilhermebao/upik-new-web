@@ -12,3 +12,16 @@ body {
 body , input, button, textarea {
     font: 400 16px 'Poppins', sans-serif;
 }
+
+@font-face {
+	font-family: Proxima;
+	src: url(../assets/font/proxima_nova_reg-webfont.ttf)
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}

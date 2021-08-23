@@ -1,4 +1,4 @@
-// import illustration from '../assets/images/illustration.svg'
+import illustration from '../assets/images/illustration.png'
 import { useHistory } from 'react-router-dom'
 import { Button } from '../components/Button'
 import '../styles/auth.scss'
@@ -30,7 +30,7 @@ export function Home() {
             </aside>
             <main>
             
-            {/* <img src={illustration} alt="Ilustrações Oscar"/> */}
+            <img src={illustration} alt="Ilustrações Oscar"/>
             </main>
         </div>
     )
